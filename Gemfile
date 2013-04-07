@@ -1,11 +1,14 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.4'
+gem 'rails'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+#Database Choice:
+gem 'pg'
+#gem 'mysql2'
+
 gem 'statistics2'
 gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
 gem 'will_paginate', '> 3.0'

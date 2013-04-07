@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: BS-Calculator_development
+  user: frank
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: BS-Calculator_test
+  user: frank
+  host: localhost
